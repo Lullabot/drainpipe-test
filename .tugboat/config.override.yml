@@ -2,6 +2,10 @@ php:
   aliases:
     - storybook
     - foo.bar.baz
+
+  invalid:
+    - "This section should be ignored and not added to the config file."
+
   urls:
     # Create a visualdiff of the home page using the default options
     - url: /
