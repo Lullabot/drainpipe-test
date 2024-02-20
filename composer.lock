@@ -1993,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "252769c61439f79a36534f7f5d35815f9f5dc68f"
+                "reference": "4196df23438a3c8659bc222ce33548dfd16a053a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/252769c61439f79a36534f7f5d35815f9f5dc68f",
-                "reference": "252769c61439f79a36534f7f5d35815f9f5dc68f",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/4196df23438a3c8659bc222ce33548dfd16a053a",
+                "reference": "4196df23438a3c8659bc222ce33548dfd16a053a",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
                 "source": "https://github.com/Lullabot/drainpipe/tree/388--config-overrides-tugboat"
             },
-            "time": "2024-02-19T21:08:02+00:00"
+            "time": "2024-02-20T00:47:35+00:00"
         },
         {
             "name": "lullabot/drainpipe-dev",
@@ -7567,7 +7567,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lullabot/drainpipe": 20
+        "lullabot/drainpipe": 20,
+        "lullabot/drainpipe-dev": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

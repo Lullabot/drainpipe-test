@@ -9,10 +9,11 @@ services:
 
     depends:
       - mariadb
+      - redis
 
     aliases:
-      - storybook
-      - foo.bar.baz
+        - storybook
+        - foo.bar.baz
 
     commands:
       init: ./.tugboat/steps/1-init.sh
@@ -20,4 +21,7 @@ services:
       build: ./.tugboat/steps/3-build.sh
 
   mariadb:
-    image: tugboatqa/mariadb:10.6
+    image: tugboatqa/mariadb:10.4
+
+  redis:
+    image: tugboatqa/redis:6-bullseye
