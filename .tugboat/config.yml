@@ -11,10 +11,12 @@ services:
       - mariadb
       - redis
 
+    # Imported from config.override.yml.
     aliases:
       - storybook
       - foo.bar.baz
-
+      
+    # Imported from config.override.yml.
     urls:
       -
         url: /
@@ -27,7 +29,22 @@ services:
         visualdiff:
           waitUntil: domcontentloaded
       
-
+    # Imported from config.override.yml.
+    visualdiff:
+      enabled: true
+      timeout: 30
+      waitUntil:
+        - load
+      fullPage: true
+      
+    # Imported from config.override.yml.
+    screenshot:
+      enabled: true
+      timeout: 30
+      waitUntil:
+        - load
+      fullPage: true
+      
     commands:
       init: ./.tugboat/steps/1-init.sh
       update: ./.tugboat/steps/2-update.sh

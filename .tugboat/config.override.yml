@@ -2,14 +2,46 @@ php:
   aliases:
     - storybook
     - foo.bar.baz
+
+  invalid:
+    - "This section should be ignored and not added to the config file."
+
   urls:
-    -
-      url: /
-    -
-      url: /blog
+    # Create a visualdiff of the home page using the default options
+    - url: /
+
+    # Create a visualdiff of /blog, but override the default timeout option
+    - url: /blog
       visualdiff:
         timeout: 10
-    -
-      url: /about
+
+    # Create a visualdiff of /about, but override the default waitUntil option
+    - url: /about
       visualdiff:
         waitUntil: domcontentloaded
+
+  # Screenshot settings that affect all of the defined service URLs.
+  # These override our defaults, and can also be overridden per-URL
+  screenshot:
+    enabled: true
+
+    # The following options are used when taking a screenshot of
+    # the URL for _this_ preview
+    timeout: 30
+    waitUntil:
+      - load
+    fullPage: true
+
+  # Visual Diff settings that affect all of the defined service URLs.
+  # These override our defaults, and can also be overridden per-URL
+  visualdiff:
+    # Visual Diffs depend on Screenshots being enabled. If Screenshots
+    # are disabled for this Service, Visual Diffs are also disabled,
+    # and this setting has no effect.
+    enabled: true
+    # The following options are used when taking a screenshot of
+    # the URL for the _base_ preview
+    timeout: 30
+    waitUntil:
+      - load
+    fullPage: true
