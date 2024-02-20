@@ -1,3 +1,15 @@
-aliases:
+php:
+  aliases:
     - storybook
     - foo.bar.baz
+  urls:
+    -
+      url: /
+    -
+      url: /blog
+      visualdiff:
+        timeout: 10
+    -
+      url: /about
+      visualdiff:
+        waitUntil: domcontentloaded

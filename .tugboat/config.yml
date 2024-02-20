@@ -12,8 +12,21 @@ services:
       - redis
 
     aliases:
-        - storybook
-        - foo.bar.baz
+      - storybook
+      - foo.bar.baz
+
+    urls:
+      -
+        url: /
+      -
+        url: /blog
+        visualdiff:
+          timeout: 10
+      -
+        url: /about
+        visualdiff:
+          waitUntil: domcontentloaded
+      
 
     commands:
       init: ./.tugboat/steps/1-init.sh
