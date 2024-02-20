@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "lullabot/drainpipe": "dev-388--config-overrides-tugboat@dev",
+        "lullabot/drainpipe": "^3",
         "lullabot/drainpipe-dev": "dev-main"
     },
     "config": {

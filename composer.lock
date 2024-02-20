@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18f72c63188478662ce122975d067085",
+    "content-hash": "440e3324554dd3348a41536d8cab78d8",
     "packages": [
         {
             "name": "behat/mink",
@@ -1989,16 +1989,16 @@
         },
         {
             "name": "lullabot/drainpipe",
-            "version": "dev-388--config-overrides-tugboat",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "4196df23438a3c8659bc222ce33548dfd16a053a"
+                "reference": "ebafad3f2b7cf17ccbf69e72400a505039cfd864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/4196df23438a3c8659bc222ce33548dfd16a053a",
-                "reference": "4196df23438a3c8659bc222ce33548dfd16a053a",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/ebafad3f2b7cf17ccbf69e72400a505039cfd864",
+                "reference": "ebafad3f2b7cf17ccbf69e72400a505039cfd864",
                 "shasum": ""
             },
             "require": {
@@ -2043,9 +2043,9 @@
             "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
             "support": {
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
-                "source": "https://github.com/Lullabot/drainpipe/tree/388--config-overrides-tugboat"
+                "source": "https://github.com/Lullabot/drainpipe/tree/v3.4.1"
             },
-            "time": "2024-02-20T00:47:35+00:00"
+            "time": "2024-02-09T15:52:43+00:00"
         },
         {
             "name": "lullabot/drainpipe-dev",
@@ -7567,7 +7567,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lullabot/drainpipe": 20,
         "lullabot/drainpipe-dev": 20
     },
     "prefer-stable": false,
