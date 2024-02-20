@@ -1,0 +1,33 @@
+{
+    "name": "drainpipe/test",
+    "description": "Testing Drainpipe development features.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Drainpipe\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KeyboardCowboy",
+            "email": "chris.albrecht@lullabot.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "lullabot/drainpipe": "dev-388--config-overrides-tugboat@dev",
+        "lullabot/drainpipe-dev": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "lullabot/drainpipe": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "lullabot/drainpipe-dev": true
+        }
+    },
+    "extra": {
+        "drainpipe": {
+            "tugboat": {}
+        }
+    }
+}
