@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "440e3324554dd3348a41536d8cab78d8",
+    "content-hash": "e5e6d944d4d955bbd4b206cfbdac76c5",
     "packages": [
         {
             "name": "behat/mink",
@@ -1988,30 +1988,30 @@
         },
         {
             "name": "lullabot/drainpipe",
-            "version": "v3.6.0",
+            "version": "dev-composer-lock-diff-sticky-pr-comment",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "f0d5cb8e982211d6ff0d3c652c60bc5c63bf9a4e"
+                "reference": "57d94dda9059200f0a4dea17ace6fe2b8f96b093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/f0d5cb8e982211d6ff0d3c652c60bc5c63bf9a4e",
-                "reference": "f0d5cb8e982211d6ff0d3c652c60bc5c63bf9a4e",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/57d94dda9059200f0a4dea17ace6fe2b8f96b093",
+                "reference": "57d94dda9059200f0a4dea17ace6fe2b8f96b093",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0",
-                "drush/drush": "^10|^11|^12",
+                "drush/drush": "^11|^12|^13",
                 "ext-json": "*",
                 "php": "^8.1",
-                "symfony/yaml": "^3|^4|^5|^6",
-                "twig/twig": "^2|^3",
+                "symfony/yaml": "^6|^7",
+                "twig/twig": "^3",
                 "vlucas/phpdotenv": "^4|^5"
             },
             "require-dev": {
                 "composer/composer": "^2.7.2",
-                "phpunit/phpunit": "^7|^8|^9"
+                "phpunit/phpunit": "^9.6.19"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2042,9 +2042,9 @@
             "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
             "support": {
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
-                "source": "https://github.com/Lullabot/drainpipe/tree/v3.6.0"
+                "source": "https://github.com/Lullabot/drainpipe/tree/composer-lock-diff-sticky-pr-comment"
             },
-            "time": "2024-03-21T19:54:24+00:00"
+            "time": "2024-04-24T16:00:48+00:00"
         },
         {
             "name": "lullabot/drainpipe-dev",
@@ -7569,6 +7569,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lullabot/drainpipe": 20,
         "lullabot/drainpipe-dev": 20
     },
     "prefer-stable": false,
