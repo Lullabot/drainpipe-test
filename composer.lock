@@ -1992,12 +1992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "e273b0edea7b7adc1812ca2c21889f88d7f69467"
+                "reference": "6ab1ccce94e94dba04234641c3db7f3dba963068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/e273b0edea7b7adc1812ca2c21889f88d7f69467",
-                "reference": "e273b0edea7b7adc1812ca2c21889f88d7f69467",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/6ab1ccce94e94dba04234641c3db7f3dba963068",
+                "reference": "6ab1ccce94e94dba04234641c3db7f3dba963068",
                 "shasum": ""
             },
             "require": {
@@ -2044,7 +2044,7 @@
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
                 "source": "https://github.com/Lullabot/drainpipe/tree/composer-lock-diff-sticky-pr-comment"
             },
-            "time": "2024-04-24T16:24:14+00:00"
+            "time": "2024-04-24T16:46:56+00:00"
         },
         {
             "name": "lullabot/drainpipe-dev",
