@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "lullabot/drainpipe": "^3",
+        "lullabot/drainpipe": "dev-249--switch-phpstan-to-include-phpstan-neon-dist",
         "lullabot/drainpipe-dev": "dev-main"
     },
     "config": {

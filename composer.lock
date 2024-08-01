@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "440e3324554dd3348a41536d8cab78d8",
+    "content-hash": "1217f681a8c399f1ded74ac7ec04df98",
     "packages": [
         {
             "name": "behat/mink",
@@ -2245,16 +2245,16 @@
         },
         {
             "name": "lullabot/drainpipe",
-            "version": "v3.8.0",
+            "version": "dev-249--switch-phpstan-to-include-phpstan-neon-dist",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "df3ae29d1c86221ce38447515ebfeb70aeb4d440"
+                "reference": "c399c6fd740e1b15fae178bb23d83e976ff2e7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/df3ae29d1c86221ce38447515ebfeb70aeb4d440",
-                "reference": "df3ae29d1c86221ce38447515ebfeb70aeb4d440",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/c399c6fd740e1b15fae178bb23d83e976ff2e7a9",
+                "reference": "c399c6fd740e1b15fae178bb23d83e976ff2e7a9",
                 "shasum": ""
             },
             "require": {
@@ -2267,8 +2267,8 @@
                 "vlucas/phpdotenv": "^4|^5"
             },
             "require-dev": {
-                "composer/composer": "^2.7.4",
-                "phpunit/phpunit": "^9.6.19"
+                "composer/composer": "^2.7.7",
+                "phpunit/phpunit": "^9.6.20"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2299,9 +2299,9 @@
             "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
             "support": {
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
-                "source": "https://github.com/Lullabot/drainpipe/tree/v3.8.0"
+                "source": "https://github.com/Lullabot/drainpipe/tree/249--switch-phpstan-to-include-phpstan-neon-dist"
             },
-            "time": "2024-05-01T15:08:00+00:00"
+            "time": "2024-08-01T16:14:34+00:00"
         },
         {
             "name": "lullabot/drainpipe-dev",
@@ -7880,6 +7880,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lullabot/drainpipe": 20,
         "lullabot/drainpipe-dev": 20
     },
     "prefer-stable": false,
