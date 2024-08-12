@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "lullabot/drainpipe": "^3",
+        "lullabot/drainpipe": "dev-justafish/638-replace-twig-linter",
         "lullabot/drainpipe-dev": "dev-main"
     },
     "config": {
